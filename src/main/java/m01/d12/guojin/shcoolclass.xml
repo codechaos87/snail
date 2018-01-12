@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shcool>
+	<shcoolclass id="59班">
+		<students>郭进</students>
+		<height>175</height>
+		<weight>120</weight>
+	</shcoolclass>
+	<shcoolclass id="58班">
+		<students>徐超</students>
+		<height>175</height>
+		<weight>150</weight>
+	</shcoolclass>
+	<shcoolclass id="57班">
+		<students>刘文</students>
+		<height>175</height>
+		<weight>180</weight>
+	</shcoolclass>
+</shcool>
