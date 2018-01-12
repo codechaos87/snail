@@ -1,0 +1,26 @@
+<School>
+	<Class class = "DT58班">
+		<Student>
+			<name>徐超</name>
+			<age>26</age>
+			<sex>男</sex>
+		</Student>
+		<Student>
+			<name>王京</name>
+			<age>18</age>
+			<sex>女</sex>
+		</Student>
+	</Class>
+	<Class class = "DT59班">
+		<Student>
+			<name>郭进</name>
+			<age>26</age>
+			<sex>男</sex>
+		</Student>
+		<Student>
+			<name>陈洋</name>
+			<age>22</age>
+			<sex>男</sex>
+		</Student>
+	</Class>
+</School>
