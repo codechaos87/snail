@@ -55,7 +55,7 @@ public class CientDemo {
             os.close();
 
             fileRead.close();
-
+            fileLoaderSocket.close();
             // System.out.println("连接服务器成功，我们中通信啦。。。");
         } catch (UnknownHostException e) {
 
