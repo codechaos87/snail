@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			header{
+				height: 200px;
+				border: 2px solid red;
+				padding-left: 30px;
+				padding-top: 25px;
+				background-color: burlywood;
+			
+			
+			}
+			section{
+				height: 200px;
+				border: 2px solid red;
+				padding-left: 30px;
+				padding-top: 10px;
+				background-color: burlywood;
+			}
+			footer{
+				height: 200px;
+				border: 2px solid red;
+				padding-left: 30px;
+				padding-top: 40px;
+				background-color: burlywood;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+		<table border="0">
+		<form method="post" action="" enctype="multipart/form-data">	
+			<tr>
+		<td></td><td>用户名：<td></td></td>
+		<td><input type="text" name="name" placeholder="请输入用户名" required=""></td>
+		    </tr>
+		    <tr>
+		<td></td><td>密码：<td></td></td>
+		<td><input type="password" name"password" placeholder="请输入密码" required=""></td>		
+			</tr>
+		</table>
+		<input type="submit" name="name" value="登录" />
+		<input type="reset" value="重置" />
+		<input type="image" src="img/1.jpg" width="20" height="20" />
+		<br />
+		
+		
+		<input type="radio" name="gen" value="男"/ id="sex1"><label for="sex1">男</label>
+		<input type="radio" name="gen" value="女"/ id="sex2"><label for="sex2">女</label>
+		<br />
+		<input type="checkbox" name="" value="打羽毛球" / id="sex3"><label for="sex3">打羽毛球</label>
+		<input type="checkbox" name="" value="打篮球" />打篮球
+		<input type="checkbox" name="" value="打乒乓球" />打乒乓球
+		<br />
+		<input type="file" name="file" value="导文件" />
+		</form>
+		<br />
+		<!--<img src="img/1.jpg" width="100px" height="80" />-->
+		</header>
+		<section>
+		<textarea name="" rows="10" cols="30">提交文本
+		</textarea>
+		<br />	
+		<select name="aa">
+			<option value="选择">2018</option>
+			<option value="选择">2017</option>
+			<option value="选择">2016</option>
+			<option value="选择">2015</option>
+		</select>
+		<select name="aa">
+			<option value="选择">一月</option>
+			<option value="选择">二月</option>
+			<option value="选择">三月</option>
+			<option value="选择">四月</option>
+			<option value="选择">五月</option>
+			<option value="选择">六月</option>
+			
+		</select>	
+		<select name="aa">
+			<option value="选择">12日</option>
+		</select>
+		</section>
+		<footer>
+		<form method="post" action="">
+			<input type="text" name="name" value="hello" readonly="">
+			<input type="text" name="name" value="hello" disabled="">
+			<br />
+			邮箱：<input type="email" name="name" value="" />
+			<br />
+			<input type="number" name="" value="滑块" min="1" max="100"/>
+			<br />
+			<input type="range" name="" value="" />
+			<br />
+			<input type="date"name="" value="日期" />
+			搜索：<input type="search" name="" value="" /><br>
+
+		</form>
+		</footer>
+	</body>
+</html>
