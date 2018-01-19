@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>登录页面</title>
+	</head>
+	<body>
+		<form 
+			method="get"
+			action="HomeWork.html"
+			enctype="multipart/form-data"
+			>
+			<table border="0">
+			<tr>
+				<td>
+			用户名：</td><td>
+			<input  
+				type="text"  
+				name="username"		可以定位到输入框
+						 />
+						 </td>
+			</tr>
+			<tr>
+				<td>
+						 用户密码：</td><td>
+						 <input
+						 	type="password"
+						 	name="password" 
+						 	value=''"/>
+						 		 </td>
+			</tr>
+			<tr>
+				<td colspan="2"><center>
+									 	<input 
+						 		type="submit"
+						 		name="submit"
+						 		value="提交"/>
+				</center>
+						 			 </td>
+			</tr>
+		</table>				 		
+				<br>
+checkbox：<br />
+ <input type="checkbox" name="like" value="">喜欢大京牙<br>
+ <input type="checkbox" name="like" value="me" >喜欢我<br />
+ radio：<br />
+ <input type= "radio" name="xihuan"id="people1"><label for="people1">大京牙</label><br />
+  <input type= "radio" name="xihuan" id="people2"><label for="people2">中京牙</label><br />
+   <input type= "radio" name="xihuan" id="people3"><label for="people3">小京牙</label><br />
+  
+   image：<br />
+   <input type="image" src="12.jpg" width="30" /><br />
+   重置：<br />
+   <input type="reset" name="" value="重置" /><br />
+    <input type="hidden" name="hid" value="404" /><br />
+    <input type="file" name="files" /><br />
+    File：<br />
+   <input type="submit" name="upload" value="上传" /><br />
+   </form>
+    <form method="get" action="">
+   邮箱：<br />
+   <input type="email" name ="mail" /><br />
+   range：<br>
+   <input type="range" name="ran" value="" /><br>
+   number：<br />
+	<input type="number" name="" value=""  min="0" max="1000" step=100 /><br>
+	date：<br/>
+	<input type="date" name="dat" value="2016-12-30" /><br>
+	
+	搜索：<br /><input type="search" name="ser" value="" /><br>
+    <input type="submit"><br />
+    
+		</form>
+		<textarea 标签名
+	name="" 
+	rows="20" 行数，整数
+	cols="20" 列数
+	></textarea><br />
+	<select name="季节" size="1">
+		<option value="1">春天</option>
+		<option value="2">夏天</option>
+		<option value="3">秋天</option>
+		<option value="4">冬天</option>
+	
+	</select>
+<form
+	 method="get"
+			action=""">
+	只读：<br>
+	<input type="text"  name="name1" value="大京牙" readonly=""/><br />
+	禁用：<br>
+	<input type="text"  name="name2" value="大京牙！" disabled=""/>
+</form>
+<form 
+	method="get"
+	action="">
+	<input type="text" name="name3" value="" placeholder="有一只大京呀"/><br/>
+	 <input type="text" name="name3" value="" placeholder="有一只大京呀" required=""/><br/>
+</form>
+	</body>
+</html>

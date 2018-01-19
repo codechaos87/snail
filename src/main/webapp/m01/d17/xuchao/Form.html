@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Form属性</title>
+	</head>
+	<body>
+		<center><h1>表单</h1></center>
+		<hr size="2" color="black"/>
+		<h3>HTML4属性</h3>
+		<form method="get" action="" enctype="multipart/form-data">
+			<table>
+				<tr>
+					<td>
+						用户名：
+					</td>
+					<td>
+						<input type="text" name="username" />(text 文本内容)
+					</td>
+				</tr>
+				<tr>
+					<td>
+						密码：
+					</td>
+					<td>
+						<input type="password" name="password"/>(password 加了后密码会隐藏)
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<center><input type="submit" name="提交"/>(submit 是个按钮 可以提交表单数据)</center><br />
+					</td>
+				</tr>
+			</table>
+			<input type="button" name="button" value="按键"/><br />
+			(button 可显示一个按钮效果)<br />
+			<br />
+			<input type="checkbox" name="hobby" value="唱歌"/>唱歌<br />
+			<input type="checkbox" name="hobby" value="篮球"/>篮球<br />
+			<input type="checkbox" name="hobby" value="购物"/>购物<br />
+			(checkbox 勾选多个选项)<br />
+			<br />
+			<input type="radio" name="sex" value="男"/>男<br />
+			<input type="radio" name="sex" value="女"/>女<br />
+			(radio 单选 只能选一个)<br />
+			<br />
+			<input type="radio" name="sex" id="male" value="男"/><label for="male">男</label><br />
+			<input type="radio" name="sex" id="formale" value="女"/><label for="formale">女</label><br />
+			(label input里定义id属性 用label标签的for属性指向input的id属性值 可点击文字勾选)<br />
+			<br />
+			<input type="reset" name="reset" value="重置" /><br />
+			(reset 把表单中的数据输入项 恢复到原始状态)<br />
+			<br />
+			<input type="file" name="file"/><br />
+			(file 导入文件 name属性值唯一)<br />
+			<br />
+			<input type="hidden" name="hidden"/><br />
+			(hidden 隐藏所以看不到)<br />
+			<br />
+			<input type="image" name="image" src="abc.jpg" width="50" height="50"/><br />
+			(image 图片 可以当提交按钮)<br />
+			<br />
+			<h3>HTML5属性</h3>
+			<input type="email" name="email" />
+			<input type="submit" value="提交"/><br />
+			(email 输入数据检查 email格式)<br />
+			<br />
+			<input type="url" name="url" />
+			<input type="submit" value="提交"/><br />
+			(url 输入数据检查 url格式)<br />
+			<br />
+			<input type="range" name="range" min="0" max="100"/><br />
+			(range 滑块效果 默认值50 最小值0 最大值100)<br />
+			<br />
+			<input type="number" name="number" />
+			<input type="submit" value="提交"/><br />
+			(number 输入数据检查 必须是数字 min定义最小值 max定义最大值)<br />
+			<br />
+			<input type="search" name="search" /><br />
+			(search 在手机端，此按钮在弹出的输入盘中，“完成”按钮显示为“搜索”，实现可以直接提交数据。
+			PC，鼠标在当前输入框，按回车键，直接提交。)<br />
+			<br />
+			<input type="date" name="date" /><br />
+			(date 控制只能输入日期的格式)<br />
+			<br />
+			<textarea name="" rows="" cols=""></textarea><br />
+			(textarea 可以控制长宽的本文输入区域 可以换行)<br />
+			<br />
+			<select name="">
+				<option value="1">11111</option>
+				<option value="2">22222</option>
+			</select 只能从定义的文本内容里进行选择><br />
+			(select)<br />
+			<br />
+			<input type="text" name="name" value="张三" readonly/><br />
+			(readonly 添加该属性 该输入框 处于只读状态 鼠标可以点进去)<br />
+			<br />
+			<input type="text" name="name" value="张三" disabled/><br />
+			(disable 鼠标点不进去 数据不能提交)<br />
+			<br />
+			<input type="text" name="name" placeholder="请输入用户名"/><br />
+			(placeholder 提示信息 不会提交)<br />
+			<br />
+			<input type="text" name="name" placeholder="请输入用户名" required/>
+			<input type="submit" value="提交"/><br />
+			(required 表明该项是必填的 如果没有填数据 点了提交也不会提交数据信息)<br />
+			<br />
+			<input type="text" name="name" placeholder="请输入密码" pattern="[\dA-Za-z]{6,16}"/>
+			<input type="submit" value="提交"/><br />
+			(pattern 验证数据的格式是否符合指定的模板)<br />
+			<br />
+		</form>
+	</body>
+</html>
