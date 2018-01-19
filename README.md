@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #组名
 
 Snail
@@ -10,6 +9,7 @@ Snail
 田永旭 tianyongxu
 王京 wangjing
 陈洋 chenyang
+
 #组介绍
 
 一步一步往上爬，蜗牛-为梦想而生。
@@ -17,7 +17,7 @@ Snail
 #目录结构
 
 $snail$ /src/main/java/m01/d13/xuchao
-=======
+
 # 组名
 	Snail
 
@@ -37,4 +37,3 @@ $snail$ /src/main/java/m01/d13/xuchao
 
 # 目录结构
 $snail$ /src/main/java/m01/d13/xuchao
->>>>>>> refs/remotes/origin/master
