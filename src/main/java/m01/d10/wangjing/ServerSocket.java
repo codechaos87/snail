@@ -51,8 +51,9 @@ public class ServerSocket {
             // System.out.println("服务器接收客户端的消息：" + rinfo);
             // 释放资源
             is.close();
+            fileSave.close();
             fileLoaderSocket.close();
-
+            serversocket.close();
         } catch (IOException e) {
 
             e.printStackTrace();
