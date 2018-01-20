@@ -1,0 +1,30 @@
+h1{
+	font-style:oblique;
+	text-align: center;
+	text-shadow: indianred 5px 10px 2px;
+	font-weight: bold;
+	background-color: brown;
+	font-size: 40px;
+}
+  body{
+	
+	background-color:#66ccff ;
+}
+div{
+	background-color:#66ccff;
+	background-image: url(../img/2.jpg);
+	background-repeat:repeat;
+	background-position: center;
+	}
+ div span{
+	font-style: oblique;
+	font-size:30px ;
+	color: crimson;
+	line-height: 35px;
+}
+ div p{
+	text-indent: 2em;
+	line-height: 28px;
+	font-size: 20px;
+	}
+	
