@@ -48,8 +48,8 @@ public class MyTanKe extends TanKe {
 
     // 开火的方法
     public void tkFire() {
-
-        if (this.direct <= 10) {
+        if (vect.size() <= 10) {
+        if (this.direct == 0) {
             // 向上
             shot = new Shot(this.getX() + 35, this.getY() - 10, this.direct);
             vect.add(shot);
@@ -68,6 +68,7 @@ public class MyTanKe extends TanKe {
         }
         Thread th = new Thread(shot);
         th.start();
+        }
     }
 
 }
