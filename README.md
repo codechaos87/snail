@@ -8,7 +8,7 @@
 - 王国军 wangguojun
 - 田永旭 tianyongxu
 - 王京 wangjing
-- 陈洋 chenyang
+- 陈洋 chenyang 
 
 
 # 组介绍
