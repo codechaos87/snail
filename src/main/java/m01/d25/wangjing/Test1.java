@@ -6,7 +6,7 @@
  * Copyright (c) 2018, bluemobi All Rights Reserved.
  */
 
-pacm01.d25.wangjing1.d25;
+package m01.d25.wangjing;
 
 import javax.swing.JFrame;
 
@@ -26,7 +26,7 @@ public class Test1 extends JFrame {
 
     public Test1() {
 
-        Tank1 tk = new Tank1();
+        Tank tk = new Tank();
         this.add(tk);
         this.addKeyListener(tk);
 

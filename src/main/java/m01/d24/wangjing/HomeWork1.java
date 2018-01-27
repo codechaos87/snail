@@ -6,7 +6,7 @@
  * Copyright (c) 2018, bluemobi All Rights Reserved.
  */
 
-pacm01.d24.wangjinga_002;
+package m01.d24.wangjing;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;

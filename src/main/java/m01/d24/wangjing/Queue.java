@@ -2,17 +2,17 @@
  * Project Name:NewLife
  * File Name:Queue.java
  * Package Name:a_002
- * Date:2018Äê1ÔÂ24ÈÕÏÂÎç11:29:33
+ * Date:2018ï¿½ï¿½1ï¿½ï¿½24ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½11:29:33
  * Copyright (c) 2018, bluemobi All Rights Reserved.
  */
 
-package a_002;
+package m01.d24.wangjing;
 
 import java.util.LinkedList;
 
 /**
  * Description: <br/>
- * Date: 2018Äê1ÔÂ24ÈÕ ÏÂÎç11:29:33 <br/>
+ * Date: 2018ï¿½ï¿½1ï¿½ï¿½24ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½11:29:33 <br/>
  * 
  * @author wangJing
  * @version
@@ -31,17 +31,17 @@ public class Queue {
                 System.out.println(list.get(i));
             }
         } else {
-            System.out.println("ÁÐ±íÎª¿Õ");
+            System.out.println("ï¿½Ð±ï¿½Îªï¿½ï¿½");
         }
     }
 
     public static void main(String[] args) {
         Queue queue = new Queue();
-        // µ÷ÓÃadd·½·¨£¬ÒÀ´Î²åÈëÔªËØ¡£
+        // ï¿½ï¿½ï¿½ï¿½addï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î²ï¿½ï¿½ï¿½Ôªï¿½Ø¡ï¿½
         queue.add("A");
         queue.add("B");
         queue.add("C");
-        // µ÷ÓÃget·½·¨£¬¿´ÔªËØµÄ±éÀúË³Ðò
+        // ï¿½ï¿½ï¿½ï¿½getï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ôªï¿½ØµÄ±ï¿½ï¿½ï¿½Ë³ï¿½ï¿½
         queue.get();
     }
 }
