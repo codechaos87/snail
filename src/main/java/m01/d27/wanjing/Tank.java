@@ -5,7 +5,10 @@
  * Date:2018��1��27������10:19:45
  * Copyright (c) 2018, bluemobi All Rights Reserved.
  */
+<<<<<<< HEAD
 
+=======
+>>>>>>> refs/remotes/origin/master
 package m01.d27.wanjing;
 
 /**
