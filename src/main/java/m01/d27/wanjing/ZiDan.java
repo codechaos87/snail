@@ -6,7 +6,7 @@
  * Copyright (c) 2018, bluemobi All Rights Reserved.
  */
 
-pacm01.d27.wanjing1.d25;
+package m01.d27.wanjing;
 
 /**
  * Description: <br/>
