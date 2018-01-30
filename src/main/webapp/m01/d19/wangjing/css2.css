@@ -1,0 +1,15 @@
+.h1{
+				border-color: red;
+				width: 60%;
+			   border-collapse:collapse; 
+			   height: 300px;
+			   }
+			td{
+				border: 3px solid blue;
+				/*border-right: 3px solid blue;
+				border-bottom: blue;
+			border-right: blue;
+			border-left: blue;*/
+			   }
+			.h2{
+				border-bottom: 3px solid black;

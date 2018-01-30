@@ -1,0 +1,28 @@
+div h1{
+	text-align: center;
+	font-weight: bold;
+	color: #FFFF00;
+	font-family: "微软雅黑";
+	text-shadow: black 5px 5px 5px;
+}
+
+div p{
+	background-image: url("123.jpg");
+	background-repeat: repeat;
+	background-position: center center;
+	/*text-align: center;*/
+	height: 500px;
+	/*width: 550px;*/
+	line-height: 41px;
+	text-indent: 2em;
+}
+
+div p span{
+	color: red;
+	font-weight: bold;
+	font-style: italic;
+}
+
+body{
+	background-color: #66ccff;
+}
