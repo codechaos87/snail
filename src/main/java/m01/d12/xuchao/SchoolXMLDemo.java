@@ -37,7 +37,7 @@ public class SchoolXMLDemo {
         DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
         try {
             DocumentBuilder bf = dbf.newDocumentBuilder();
-            Document doc = bf.parse(new File("D:\\git\\snail\\src\\main\\java\\m01\\d12\\School.xml"));
+            Document doc = bf.parse(new File("C:\\Users\\chaos\\Desktop\\Demo\\School.xml"));
             NodeList classList = doc.getElementsByTagName("Class");
             for (int i = 0; i < classList.getLength(); i++) {
                 Node classNode = classList.item(i);

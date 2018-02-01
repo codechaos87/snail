@@ -1,0 +1,32 @@
+h1{
+	color: white;
+	background-color: blue;
+	text-align: center;
+	padding: 15px;
+}
+
+p{
+	text-indent: 2em;
+	font-size: 12px;
+	line-height: 150%;
+	padding: 5px;
+}
+
+.pcolor1{
+	border-right: 3px double red;
+}
+
+.pcolor2{
+	border-right: 3px double orange;
+}
+
+.float{
+	border: 1px dashed #9999cc;
+	float: left;
+	margin: 5px;
+}
+
+*{
+	background-color: #ccccff;
+	margin: 0;
+}
