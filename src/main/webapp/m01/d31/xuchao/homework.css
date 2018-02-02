@@ -1,0 +1,48 @@
+*{
+	margin:0px;
+}
+body{
+	background-color: #9999CC;
+}
+#mydiv1{
+	width: 340px;
+	background-color: white;
+}
+.mydiv2{
+	border-bottom: 1px dashed;
+	line-height: 30px;
+	font-size: 16px;
+}
+div div h3{
+	color: white;
+	line-height: 40px;
+	background-color: #DD1C55;
+	text-indent: 10px;
+}
+a{
+	text-indent: 8px;
+	background-image: url(dot_01.gif);
+	background-repeat: no-repeat;
+}
+a:link{
+	text-decoration: none;
+	color: black;
+}
+a:hover{
+	background-image: url(dot_02.gif);
+	color: #DD1C55;
+}
+a:hover .display{
+	display: block;
+}
+.display{
+	display: none;
+}
+span{
+	/*text-indent: 5px;*/
+	color: white;
+	position: absolute;
+}
+div div div p{
+	text-align: center;
+}

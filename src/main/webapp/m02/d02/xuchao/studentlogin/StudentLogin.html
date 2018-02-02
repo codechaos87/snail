@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>学员免费体验登录页面</title>
+	</head>
+	<style type="text/css">
+		body{
+			margin: 0px;
+		}
+		#mydiv{
+			height: 354px;
+			width: 309px;
+			background-image: url(bg.jpg);
+			font-family: "微软雅黑";
+		}
+		#mydiv2{
+			height: 208px;
+			color: white;
+			font-size: 15px;
+			padding-top: 75px;
+		}
+		#mydiv3{
+			padding-left: 84px;
+		}
+		#mydiv2 ul{
+			list-style-type: none;
+			padding-left:25px;
+		}
+		#mydiv2 input{
+			border-radius: 5px;
+			width: 190px;
+		}
+		#mydiv2 select{
+			border-radius: 5px;
+		}
+		#mydiv2 li{
+			padding-bottom: 15px;
+		}
+		#mydiv2 span{
+			color: red;
+		}
+	</style>
+	<body>
+		<div id="mydiv">
+			<div id="mydiv2">
+				<ul>
+					<li>
+						<form action="" method="post">
+							<span>*</span>
+							姓名&nbsp;:&nbsp;&nbsp;<input type="text" value=""/>
+						</form>						
+					</li>
+					<li>
+						<form action="" method="post">
+							<span>*</span>
+							邮箱&nbsp;:&nbsp;&nbsp;<input type="text" value=""/>
+						</form>
+					</li>
+					<li><form action="" method="post">
+							<span>*</span>
+							电话&nbsp;:&nbsp;&nbsp;<input type="text" value=""/>
+						</form></li>
+					<li>
+						性别&nbsp;:&nbsp;&nbsp;<select name="sex">
+								<option value="">请选择</option>
+								<option value="1">男</option>
+								<option value="2">女</option>
+						</select>
+					</li>
+					<li>
+						年龄&nbsp;:&nbsp;&nbsp;<select name="age">
+								<option value="">请选择</option>
+								<option value="1">0~9</option>
+								<option value="2">10~19</option>
+								<option value="1">20~29</option>
+								<option value="1">30~39</option>
+								<option value="1">40~49</option>
+								<option value="1">50~59</option>
+						</select>
+					</li>
+				</ul>
+			</div>
+			<div id="mydiv3">
+				<form action="" method="post">
+					<input type="image" src="btn.jpg" width="155px"/>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
