@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+   div{
+    width:350px;
+    height:420px;
+    border:1px white solid;
+    background: url(bg.jpg) no-repeat;
+    background-size:contain;
+   }
+   span{ color:red;
+          margin-left: 2em;}
+   .a{  margin-top:100px; }
+   .b{ margin-top:10px; }
+   .c{ margin-top:10px; }
+   .e{ margin-left: 100px;
+       margin-top: 10px;}
+    label{
+       margin:50px;
+      }
+       
+</style>
+<script>
+    window.onload=function(){
+    	var year=document.getElementById("year");
+    	var yy = year.options;
+    	for(var i=18;i<=120;i++){
+    		yy[i-18+1]=new Option(i,i-18+1);
+    	}
+    }
+</script>
+</head>
+<body>
+   <div>
+      <span >*</span>姓名：<input class="a" type="text" name="username" required/><br/>
+      <span >*</span>邮箱：<input class="b" type="email" name="an" required/><br/>
+      <span >*</span>电话：<input class="c" type="text" name="tell" required/><br/>
+      <label>性别：</label>
+          <select>
+             <option value="1">请选择...</option>
+             <option value="2">男</option>
+             <option value="3">女</option>
+          </select><br/>
+      <label>年龄：</label>
+        <select id="year">
+         <option>请选择...</option>
+        </select><br/>
+      <input class="e" type="image" src="btn.jpg"/>
+   </div>
+</body>
+</html>
