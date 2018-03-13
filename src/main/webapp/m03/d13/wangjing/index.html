@@ -43,7 +43,10 @@ dd a:hover{
 <script>
 	$(function(){
 		$(".del").click(function(){
-			
+			$("#listbox dl:eq(0)").remove();
+		});
+		$(".add").click(function(){
+			$("#listbox dl:eq(0)").remove();
 		})
 	})
 </script>
