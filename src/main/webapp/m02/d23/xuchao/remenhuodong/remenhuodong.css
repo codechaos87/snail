@@ -1,0 +1,35 @@
+#mydiv1{
+	width: 760px;
+	height: auto;
+}
+#mydiv1 .sp1{
+	padding-left: 50px;
+	font-size: 24px;
+	font-weight: bolder;
+}
+#mydiv1 .sp2{
+	float: right;
+	font-size: 20px;
+	font-weight: bolder;
+	color: #666666;
+}
+#mydiv2{
+	float: right;
+	padding-right: 80px;
+	padding-top: 20px;
+}
+
+#mydiv3{
+	padding-left: 75px;
+	padding-top: 20px;
+}
+#mydiv2,#mydiv3{
+	font-size: 12px;
+}
+
+.pic3{
+	padding-top: 30px;
+}
+.pic4{
+	padding-top: 25px;
+}
