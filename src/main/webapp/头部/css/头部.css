@@ -1,0 +1,140 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+* a:hover{
+	cursor: pointer;
+}
+a{
+	text-decoration: none;
+}
+#all{
+	width: 1349px;
+	height: auto;
+}
+#header{
+	position: relative;
+	width: 100%;
+	height: 65px;
+	box-sizing: border-box;
+	border-bottom: 1px gainsboro solid;
+}
+.hul1{
+	position: absolute;
+	width: 450px;
+	height: 65px;
+	margin-left: 65px;
+}
+.hul1 li{
+	width: auto;
+	height: 65px;
+	list-style-type: none;
+	float: left;
+	padding: 0 12px;
+}
+.hul1 li a{
+	height: 65px;
+	box-sizing: border-box;
+	color: #363636;
+	font-size: 13px;
+	font-weight: bold;
+	display: block;
+	padding: 24px 0;
+}
+.hul2 li{
+	width: auto;
+	height: 65px;
+	list-style-type: none;
+	float: left;
+	padding: 0 12px;
+}
+.hul2{
+	position: absolute;
+	width: 415px;
+	height: 65px;
+	right: 0;
+}
+.hul2 li{
+	width: auto;
+	height: 65px;
+	list-style-type: none;
+	float: left;
+	padding: 0 12px;
+}
+.hul2 li a{
+	height: 65px;
+	box-sizing: border-box;
+	color: #363636;
+	font-size: 13px;
+	font-weight: bold;
+	display: block;
+	padding: 24px 0;
+}
+.hulchange{
+	border-bottom: 3px #1428A0 solid;
+}
+.headsp{
+	position: absolute;
+	width: 100%;
+	height: 65px;
+	display: block;
+	text-align: center;	
+	left: 610px;
+}
+.headsp a{
+	box-sizing: border-box;
+	display: block;
+	width: 131px;
+	height: 65px;
+	padding-top: 17px;
+}
+.xiala{
+	box-sizing: border-box;
+	position: absolute;
+	width: 100%;
+	height: auto;
+	z-index: 2;
+	top: 65px;
+	background-color: white;
+	padding-bottom: 30px;
+	display: none;
+}
+.xiala1{
+	box-sizing: border-box;
+	width: 90%;
+	height: 100%;
+	/*border: 1px red solid;*/
+	margin: 0 auto;
+	padding-top: 50px;
+	padding-left: 20px;
+}
+.xiala1 div{
+	float: left;
+}
+/*.xiala1:n(3){
+	border-left: 1px red solid;
+}*/
+.xiala1:nth-child(3){
+	border-left: 1px red solid;
+}
+.xiala_{
+	box-sizing: border-box;
+	width: 232px;
+	height: auto;
+	/*border: 1px red solid;*/
+}
+.xiala1 ul{
+	width: 208px;
+	height: auto;
+	list-style-type: none;
+	color: #363636;
+	font-size: 14px;
+}
+.xiala1 ul li{
+	margin-bottom: 10px;
+}
+.xiala_ ul li:first-child{
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
