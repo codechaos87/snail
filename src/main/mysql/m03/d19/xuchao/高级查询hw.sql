@@ -34,9 +34,9 @@ GROUP BY b.`rid`;
 #6、查询总罚款金额大于5元的读者姓名和总罚金金额
 SELECT
 (SELECT r.rname FROM reader r WHERE p.`rid`=rid)AS 读者姓名,
-p.`amount` AS 总罚金金额
+SUM(amount) AS 总罚金金额
 FROM
-penalty p WHERE amount>5;
+penalty p GROUP BY rid HAVING 总罚金金额>5;
 
 #7、统计已完成借阅的记录（即归还日期不为空）中每本书的借阅次数、显示借阅次数排名在前5位的图书名称和借阅次数
 SELECT
