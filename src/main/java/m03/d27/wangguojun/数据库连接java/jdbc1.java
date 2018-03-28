@@ -6,7 +6,7 @@
  * Copyright (c) 2018, bluemobi All Rights Reserved.
  */
 
-package 数据库连接java;
+package m03.d27.wangguojun.数据库连接java;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
