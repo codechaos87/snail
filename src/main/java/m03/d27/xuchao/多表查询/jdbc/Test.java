@@ -46,7 +46,7 @@ public class Test {
     PreparedStatement pst = null;//预编译
     ResultSet rs = null;
     private String url="jdbc:mysql://localhost:3306/mydata";//连接什么位置的数据库 端口号 数据库名
-    
+                                                            //古国是本机，可以简写为jdbc:mysql:///数据库名
     //连接方法
     public Connection getCon() {
         try {
