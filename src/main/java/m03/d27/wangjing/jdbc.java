@@ -6,7 +6,7 @@
  * Copyright (c) 2018, bluemobi All Rights Reserved.
  */
 
-package Demojdbc;
+package m03.d27.wangjing;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -23,10 +23,10 @@ import java.util.List;
  * @version
  * @see
  */
-public class 多表jdbc {
+public class jdbc {
 
     public static void main(String[] args) {
-        多表jdbc tt = new 多表jdbc();
+        jdbc tt = new jdbc();
         List<info2> list = tt.getAllInfo();
         for (info2 ff : list) {
             System.out.println(ff.getCid() + "\t" + ff.getCname() + "\t" + ff.getPname());

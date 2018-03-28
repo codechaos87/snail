@@ -6,7 +6,7 @@
  * Copyright (c) 2018, bluemobi All Rights Reserved.
  */
 
-package trim_01;
+package m03.d27.tianyongxu;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
