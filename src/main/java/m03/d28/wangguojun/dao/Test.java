@@ -9,6 +9,9 @@
 package m03.d28.wangguojun.dao;
 
 import java.util.List;
+import java.util.Scanner;
+
+import m03.d28.wangguojun.entity.QuestionInfo;
 
 /**
  * Description:   <br/>
@@ -21,6 +24,12 @@ public class Test {
 
     public static void main(String[] args) {
         Dao bizDao = new daoimpl();
+        System.out.println("************进入系统************");
+        Scanner sc = new Scanner(System.in);
+        System.out.println("--------------------------------------");
+        QuestionInfo info = new QuestionInfo();
+        System.out.println("请输入要修改的编号：");
+
         List<m03.d28.wangguojun.entity.QuestionInfo> lists = bizDao.getAllQuestionInfo();
         for (m03.d28.wangguojun.entity.QuestionInfo ff : lists) {
             System.err.println(ff.getQuestionId() + "\t" + ff.getQuestion() + "\t" + ff.getOptionA() + "\t"

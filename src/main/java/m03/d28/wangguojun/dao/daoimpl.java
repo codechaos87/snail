@@ -29,6 +29,7 @@ public class daoimpl extends BaseDao implements Dao {
             pst=getCon().prepareStatement(sql);
             res=pst.executeQuery(sql);
             while(res.next()){
+                // 添加方法
                 m03.d28.wangguojun.entity.QuestionInfo ff = new m03.d28.wangguojun.entity.QuestionInfo();
                 ff.setQuestionId(res.getInt(1));
                 ff.setQuestion(res.getString(2));
@@ -49,6 +50,7 @@ public class daoimpl extends BaseDao implements Dao {
     }
 
     @Override
+    // 更新方法
     public int updateQuestionInfo(Object t) {
         int flag = 0;
         try {
@@ -73,6 +75,7 @@ public class daoimpl extends BaseDao implements Dao {
     }
 
     @Override
+    // 删除方法
     public int deleteQuestionInfo(int id) {
 
         int flag = 0;
@@ -93,7 +96,7 @@ public class daoimpl extends BaseDao implements Dao {
 
         int flag = 0;
         try {
-            String sql = "INSERT INTO info2(NAME,birthday) VALUES(?,?)";
+            String sql = "INSERT INTO QuestionInfo(questionId,question,optionA,optionB,optionC,optionD,SUBJECT,answer) VALUES(?,?)";
             Object[] obj = new Object[2];
             if (t instanceof QuestionInfo) {
                 QuestionInfo ff = (QuestionInfo) t;
