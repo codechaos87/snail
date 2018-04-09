@@ -9,12 +9,12 @@
 <head>
 	<base href="<%=basePath %>">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<title>Insert title here</title>
-	<link href="CSS/main.css" rel="stylesheet" type="text/css"/>
+	<title>登录页面</title>
+	<link href="m04/d03/xuchao/CSS/main.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 	<div id="header">
-		<form action="result.jsp" method="post">
+		<form action="m04/d03/xuchao/result.jsp" method="post">
 		    <div id="top_login">
 		    <label> 登录名 </label>
 		    <input type="text" id="uname" name="uname" value="" class="login_input" />
@@ -22,18 +22,18 @@
 		    <input type="password" id="upwd" name="upwd" value="" class="login_input" />
 		    <input type="submit" class="login_sub" value="登录" />
 		    <label id="error"> </label>
-		    <img src="Images/friend_logo.gif" alt="Google" id="friend_logo" />
+		    <img src="m04/d03/xuchao/Images/friend_logo.gif" alt="Google" id="friend_logo" />
 		    </div>
 	    </form>
 	    <div id="nav">
-	    <div id="logo"> <img src="Images/logo.jpg" alt="新闻中国" /> </div>
-	    <div id="a_b01"> <img src="Images/a_b01.gif" alt="" /> </div>
+	    <div id="logo"> <img src="m04/d03/xuchao/Images/logo.jpg" alt="新闻中国" /> </div>
+	    <div id="a_b01"> <img src="m04/d03/xuchao/Images/a_b01.gif" alt="" /> </div>
 	    <!--mainnav end-->
 	  </div>
 	</div>
 	<div id="container">
 	  <div class="sidebar">
-	    <h1> <img src="Images/title_1.gif" alt="国内新闻" /> </h1>
+	    <h1> <img src="m04/d03/xuchao/Images/title_1.gif" alt="国内新闻" /> </h1>
 	    <div class="side_list">
 	      <ul>
 	        <li> <a href='#'><b> 重庆涉黑富豪黎强夫妇庭审答辩言辞相互矛盾 </b></a> </li>
@@ -41,7 +41,7 @@
 	        <li> <a href='#'><b> 河南2个乡镇政绩报告内容完全一致引关注 </b></a> </li>
 	      </ul>
 	    </div>
-	    <h1> <img src="Images/title_2.gif" alt="国际新闻" /> </h1>
+	    <h1> <img src="m04/d03/xuchao/Images/title_2.gif" alt="国际新闻" /> </h1>
 	    <div class="side_list">
 	      <ul>
 	        <li> <a href='#'><b> 日本首相鸠山首次全面阐述新政府外交政策 </b></a> </li>
@@ -50,7 +50,7 @@
 	        <li> <a href='#'><b> 与基地有关组织宣称对巴格达连环爆炸负责 </b></a> </li>
 	      </ul>
 	    </div>
-	    <h1> <img src="Images/title_3.gif" alt="娱乐新闻" /> </h1>
+	    <h1> <img src="m04/d03/xuchao/Images/title_3.gif" alt="娱乐新闻" /> </h1>
 	    <div class="side_list">
 	      <ul>
 	        <li> <a href='#'><b> 施瓦辛格启动影视业回迁计划 推进加州经济复苏 </b></a> </li>
@@ -61,7 +61,7 @@
 	    </div>
 	  </div>
 	  <div class="main">
-	    <div class="class_type"> <img src="Images/class_type.gif" alt="新闻中心" /> </div>
+	    <div class="class_type"> <img src="m04/d03/xuchao/Images/class_type.gif" alt="新闻中心" /> </div>
 	    <div class="content">
 	      <ul class="class_date">
 	        <li id='class_month'> <a href='#'><b> 国内 </b></a> <a href='#'><b> 国际 </b></a> <a href='#'><b> 军事 </b></a> <a href='#'><b> 体育 </b></a> <a href='#'><b> 娱乐 </b></a> <a href='#'><b> 社会 </b></a> <a href='#'><b> 财经 </b></a> <a href='#'><b> 科技 </b></a> <a href='#'><b> 健康 </b></a> <a href='#'><b> 汽车 </b></a> <a href='#'><b> 教育 </b></a> </li>
@@ -106,16 +106,16 @@
 	    </div>
 	    <div class="picnews">
 	      <ul>
-	        <li> <a href="#"><img src="Images/Picture1.jpg" width="249" alt="" /> </a><a href="#">幻想中穿越时空</a> </li>
-	        <li> <a href="#"><img src="Images/Picture2.jpg" width="249" alt="" /> </a><a href="#">国庆多变的发型</a> </li>
-	        <li> <a href="#"><img src="Images/Picture3.jpg" width="249" alt="" /> </a><a href="#">新技术照亮都市</a> </li>
-	        <li> <a href="#"><img src="Images/Picture4.jpg" width="249" alt="" /> </a><a href="#">群星闪耀红地毯</a> </li>
+	        <li> <a href="#"><img src="m04/d03/xuchao/Images/Picture1.jpg" width="249" alt="" /> </a><a href="#">幻想中穿越时空</a> </li>
+	        <li> <a href="#"><img src="m04/d03/xuchao/Images/Picture2.jpg" width="249" alt="" /> </a><a href="#">国庆多变的发型</a> </li>
+	        <li> <a href="#"><img src="m04/d03/xuchao/Images/Picture3.jpg" width="249" alt="" /> </a><a href="#">新技术照亮都市</a> </li>
+	        <li> <a href="#"><img src="m04/d03/xuchao/Images/Picture4.jpg" width="249" alt="" /> </a><a href="#">群星闪耀红地毯</a> </li>
 	      </ul>
 	    </div>
 	  </div>
 	</div>
 	<div id="friend">
-	  <h1 class="friend_t"> <img src="Images/friend_ico.gif" alt="合作伙伴" /> </h1>
+	  <h1 class="friend_t"> <img src="m04/d03/xuchao/Images/friend_ico.gif" alt="合作伙伴" /> </h1>
 	  <div class="friend_list">
 	    <ul>
 	      <li> <a href="#">中国政府网</a> </li>

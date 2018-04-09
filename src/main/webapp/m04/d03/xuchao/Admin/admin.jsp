@@ -7,7 +7,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title></title>
+<title>主页面</title>
 <link href="CSS/admin.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -55,7 +55,7 @@
       		List<NewsInfo> listNews = bsi.getNews();
       		for(int i = 0;i<listNews.size();i++){
       		    out.print("<li> "+listNews.get(i).getNewsTitle()+" <span> 作者："+listNews.get(i).getNewsAuthor()+
-      		            "&#160;&#160;&#160;&#160; <a href='news_modify.html'>修改</a> &#160;&#160;&#160;&#160; <a href='#' onclick='del("+listNews.get(i).getNewsId()+")'>删除</a> </span></li>");
+      		            "&#160;&#160;&#160;&#160; <a href='Admin/news_modify.jsp?title="+listNews.get(i).getNewsTitle()+"&author="+listNews.get(i).getNewsAuthor()+"&summary="+listNews.get(i).getNewsSummary()+"&content="+listNews.get(i).getNewsContent()+"'>修改</a> &#160;&#160;&#160;&#160; <a href='#' onclick='del("+listNews.get(i).getNewsId()+")'>删除</a> </span></li>");
       		}
       %>
       <p align="right"> 当前页数:[1/3]&nbsp; <a href="#">下一页</a> <a href="#">末页</a> </p>
