@@ -172,8 +172,6 @@ public class QuestionInfoDaoImpl extends BaseDao implements QuestionInfoDao {
             System.out.println(controlDML(sql, obj)>0?"添加成功":"添加失败");//三目运算符
         } catch (Exception e) {
             e.printStackTrace();
-        }finally {
-            close(con,pst,rs);
         }
     }
 
